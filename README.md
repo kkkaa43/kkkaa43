@@ -8,11 +8,13 @@
   <a href="mailto:shiyuan.lyu@mail.utoronto.ca"><img src="https://img.shields.io/badge/email-contact-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-## About
+## About me
 
-I'm a Computer Science Specialist at the University of Toronto, interested in building reliable AI systems and research tools that people can actually use.
-
-At The Matter Lab, I contribute to the El Agente multi-agent research ecosystem through typed agent tools, Pydantic schemas, and structured validation. I'm currently open to software engineering, AI engineering, and research engineering internships.
+- 🎓 **Computer Science Specialist** at the **University of Toronto, St. George Campus**
+- 🔬 **Undergraduate Research Assistant** at [**The Matter Lab**](https://www.matter.toronto.edu/)
+- 🤖 Contributing to the **El Agente Gráfico** multi-agent research ecosystem ([member directory](https://elagente.ca/members))
+- 🧩 Building typed agent tools, Pydantic schemas, structured validation, and reliable LLM-powered research workflows
+- 🎯 Open to software engineering, AI engineering, and research engineering internships
 
 ## Selected work
 
