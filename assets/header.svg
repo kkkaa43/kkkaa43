@@ -1,71 +1,51 @@
-<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Shiyuan Dennis Lyu profile banner</title>
-  <desc id="desc">Animated blue and graphite banner for a University of Toronto computer science student focused on AI and research engineering.</desc>
+<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Shiyuan Dennis Lyu — AI systems and research engineering</title>
+  <desc id="desc">A minimal dark profile banner with a subtle animated node graph.</desc>
 
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#252A34">
-        <animate attributeName="stop-color" values="#252A34;#303846;#252A34" dur="8s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="0.52" stop-color="#456B91">
-        <animate attributeName="stop-color" values="#456B91;#3E7CB1;#456B91" dur="8s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="1" stop-color="#73B8F2">
-        <animate attributeName="stop-color" values="#73B8F2;#8AC7F8;#73B8F2" dur="8s" repeatCount="indefinite" />
-      </stop>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111C2E"/>
     </linearGradient>
-
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(890 58) rotate(145) scale(420 210)">
-      <stop stop-color="#FFFFFF" stop-opacity="0.19" />
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0" />
-    </radialGradient>
+    <linearGradient id="accent" x1="68" y1="58" x2="68" y2="182" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
   </defs>
 
-  <rect width="1200" height="280" rx="18" fill="url(#background)" />
-  <rect width="1200" height="280" rx="18" fill="url(#glow)" />
+  <rect x="1" y="1" width="1198" height="238" rx="17" fill="url(#bg)" stroke="#263449" stroke-width="2"/>
+  <rect x="66" y="56" width="4" height="128" rx="2" fill="url(#accent)"/>
 
-  <g opacity="0.42">
-    <circle cx="106" cy="62" r="3" fill="white">
-      <animate attributeName="opacity" values="0.15;0.8;0.15" dur="3.6s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="1035" cy="82" r="4" fill="white">
-      <animate attributeName="opacity" values="0.2;0.75;0.2" dur="4.4s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="1110" cy="142" r="2.5" fill="white">
-      <animate attributeName="opacity" values="0.1;0.7;0.1" dur="3.1s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="180" cy="156" r="2.5" fill="white">
-      <animate attributeName="opacity" values="0.1;0.65;0.1" dur="5s" repeatCount="indefinite" />
-    </circle>
+  <text x="96" y="103" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="48" font-weight="700" letter-spacing="-1.3">Shiyuan (Dennis) Lyu</text>
+  <text x="98" y="139" fill="#A8B5C7" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="500">Computer Science · University of Toronto</text>
+  <text x="98" y="171" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16">AI systems / research tooling / useful software</text>
+
+  <g opacity="0.72" stroke="#4B6787" stroke-width="1.6">
+    <path d="M850 70L955 111L1070 71"/>
+    <path d="M850 70L895 167L1005 174L1070 71"/>
+    <path d="M955 111L1005 174"/>
   </g>
 
-  <g text-anchor="middle" fill="white">
-    <text x="600" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="57" font-weight="750" letter-spacing="0.2">
-      Shiyuan (Dennis) Lyu
-      <animate attributeName="opacity" from="0" to="1" dur="0.9s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="0 7;0 0" dur="0.9s" fill="freeze" />
-    </text>
-    <text x="600" y="157" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="0.4" opacity="0">
-      CS @ University of Toronto  ·  AI &amp; Research Engineering
-      <animate attributeName="opacity" from="0" to="0.96" begin="0.45s" dur="0.9s" fill="freeze" />
-    </text>
-    <text x="600" y="190" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="2.1" opacity="0">
-      RELIABLE AI SYSTEMS  •  RESEARCH TOOLING  •  DEVELOPER APPLICATIONS
-      <animate attributeName="opacity" from="0" to="0.76" begin="0.85s" dur="1s" fill="freeze" />
-    </text>
+  <g fill="#101C2D" stroke="#6EA8D7" stroke-width="2">
+    <circle cx="850" cy="70" r="10"/>
+    <circle cx="955" cy="111" r="10"/>
+    <circle cx="1070" cy="71" r="10"/>
+    <circle cx="895" cy="167" r="10"/>
+    <circle cx="1005" cy="174" r="10"/>
   </g>
 
-  <path fill="#B8D4EC" fill-opacity="0.77" d="M0 222 C180 250 306 207 470 224 C636 242 775 271 941 259 C1040 252 1122 237 1200 244 L1200 280 L0 280 Z">
-    <animate attributeName="d" dur="7s" repeatCount="indefinite"
-      values="M0 222 C180 250 306 207 470 224 C636 242 775 271 941 259 C1040 252 1122 237 1200 244 L1200 280 L0 280 Z;
-              M0 238 C146 207 302 250 472 237 C657 222 772 248 943 264 C1049 273 1128 249 1200 230 L1200 280 L0 280 Z;
-              M0 222 C180 250 306 207 470 224 C636 242 775 271 941 259 C1040 252 1122 237 1200 244 L1200 280 L0 280 Z" />
-  </path>
+  <circle r="5" fill="#67E8F9" filter="url(#softGlow)" opacity="0.65">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M850 70L955 111L1005 174L895 167L850 70"/>
+  </circle>
+  <circle r="3.5" fill="#E0F2FE">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M850 70L955 111L1005 174L895 167L850 70"/>
+  </circle>
 
-  <path fill="#FFFFFF" fill-opacity="0.95" d="M0 246 C150 222 303 260 468 248 C634 236 774 222 941 241 C1041 252 1120 269 1200 259 L1200 280 L0 280 Z">
-    <animate attributeName="d" dur="6s" repeatCount="indefinite"
-      values="M0 246 C150 222 303 260 468 248 C634 236 774 222 941 241 C1041 252 1120 269 1200 259 L1200 280 L0 280 Z;
-              M0 257 C155 270 298 228 466 240 C637 252 773 269 940 249 C1038 237 1123 226 1200 246 L1200 280 L0 280 Z;
-              M0 246 C150 222 303 260 468 248 C634 236 774 222 941 241 C1041 252 1120 269 1200 259 L1200 280 L0 280 Z" />
-  </path>
+  <circle cx="1094" cy="188" r="4" fill="#34D399">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1108" y="193" fill="#7F8FA3" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">building</text>
 </svg>
