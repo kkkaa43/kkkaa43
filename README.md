@@ -12,7 +12,7 @@
 
 I'm a Computer Science Specialist at the University of Toronto, interested in building reliable AI systems and research tools that people can actually use.
 
-At The Matter Lab, I contribute to the El Agente Gráfico multi-agent research ecosystem through typed agent tools, Pydantic schemas, and structured validation. I'm currently open to software engineering, AI engineering, and research engineering internships.
+At The Matter Lab, I contribute to the El Agente multi-agent research ecosystem through typed agent tools, Pydantic schemas, and structured validation. I'm currently open to software engineering, AI engineering, and research engineering internships.
 
 ## Selected work
 
@@ -26,10 +26,6 @@ A playable Pygame application with minimax search, alpha-beta pruning, move orde
 
 `Python` `Pygame` `Algorithms`
 
-### [Patch-Scope Validity Artifact](https://github.com/kkkaa43/patch-scope-validity-artifact)
-A reproducibility package for auditing coding-agent outputs against declared edit-scope constraints, with offline verification and reconstruction tooling.
-
-`Python` `Agent Evaluation` `Reproducible Research`
 
 ## Stack
 
