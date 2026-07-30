@@ -62,13 +62,6 @@ A playable Gomoku game with a search-based AI opponent, interactive Pygame inter
 <tr>
 <td colspan="2" valign="top">
 
-### 🔍 [Patch-Scope Validity Research Artifact](https://github.com/kkkaa43/patch-scope-validity-artifact)
-
-A reproducibility and evidence package for auditing whether coding-agent outputs respect declared edit-scope constraints. It includes offline verification, saved diffs and test outputs, deterministic reconstruction scripts, and documented validity limits.
-
-**Focus:** Coding Agents · Evaluation · Reproducibility · Research Tooling
-
-<a href="https://github.com/kkkaa43/patch-scope-validity-artifact"><img src="https://img.shields.io/badge/View_Research_Artifact-24292F?style=flat-square&logo=github&logoColor=white" alt="View research artifact" /></a>
 
 </td>
 </tr>
