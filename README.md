@@ -26,7 +26,7 @@
 ## About Me
 
 - 🎓 **Computer Science Specialist @ University of Toronto**
-- 🔬 **Undergraduate Research Assistant @ The Matter Lab**, contributing to the El Agente Gráfico multi-agent research ecosystem
+- 🔬 **Undergraduate Research Assistant @ The Matter Lab**, contributing to the El Agente multi-agent research ecosystem
 - 🧠 Building **typed agent tools, Pydantic schemas, structured validation, and LLM-powered research workflows**
 - 🕸️ Interested in **AI systems, research engineering, knowledge graphs, and developer tooling**
 - 💼 Open to **Software Engineering, AI Engineering, and Research Engineering internships**
