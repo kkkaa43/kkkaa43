@@ -30,7 +30,7 @@ An end-to-end research application for arXiv discovery, PDF parsing, schema-vali
 
 `Python` `Streamlit` `LLM APIs` `NetworkX` · [Live demo](https://llm-literature-kg.streamlit.app/)
 
-### [Trippy — Intelligent Desktop Trip Planner](https://github.com/emilyzyy/207)
+### [Trippy — Intelligent Desktop Trip Planner]([https://github.com/emilyzyy/207](https://github.com/kkkaa43/trippy-trip-planner))
 
 A Java desktop trip-planning application built with Clean Architecture, combining scheduling constraints, weather-aware planning, maps, shared itineraries, and an AI trip assistant.
 
